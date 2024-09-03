@@ -1,0 +1,36 @@
+PART->1
+
+check git version
+// git --version
+to see git configure list
+// git config --list
+
+To get the value of a specific configuration setting:
+git config --global user.name "Your Name"
+
+To set a configuration value globally (for all repositories):
+git config --global user.email "your.email@example.com"
+
+To delete a configuration setting:
+git config --unset user.name
+
+create local repository(it will create master branch)
+//git init
+
+create local repository(it will create main branch)
+//git init -b main
+
+command to remove git directory
+//Remove-Item -Recurse -Force .git
+
+check git status inside working repositories
+//git status
+
+by default, whe one create a file in working directory that will be a part of working directory and git should know that this should be a part of git, and should be in staging area
+
+when we create  git branch it create as a master branch
+
+
+PART->2
+add any file to git staging area
+git add <filename>
