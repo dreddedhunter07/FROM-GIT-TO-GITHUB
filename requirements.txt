@@ -1,4 +1,4 @@
-PART->1
+PART->1(setup git and  configure for creating global repos)
 
 check git version
 // git --version
@@ -15,22 +15,39 @@ To delete a configuration setting:
 git config --unset user.name
 
 create local repository(it will create master branch)
-//git init
+// git init
 
 create local repository(it will create main branch)
-//git init -b main
+// git init -b main
 
 command to remove git directory
-//Remove-Item -Recurse -Force .git
+// Remove-Item -Recurse -Force .git
 
 check git status inside working repositories
-//git status
+// git status
 
 by default, whe one create a file in working directory that will be a part of working directory and git should know that this should be a part of git, and should be in staging area
 
 when we create  git branch it create as a master branch
 
 
-PART->2
+PART->2(add_commit)
 add any file to git staging area
-git add <filename>
+// git add <filename>
+Unstage it
+// git rm --cached <file>...
+
+do commits
+// git commit -m "logical message"
+
+to know all the commits
+// git log
+
+***
+when you do any chages in your file and you want save commit it, at first you have add the file again
+to the staging area by using
+// git add <filename>
+once this file going into a staging area ,then we can commit 
+by using
+// git commit -m "logical message"
+***
