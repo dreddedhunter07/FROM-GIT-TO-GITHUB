@@ -171,3 +171,10 @@ part 4:
  ->
  Simply copy the command under "git branch -M main"
  ->paste it to the terminal and press enter.
+
+ part 5:
+ Now, you can your repository to github by using->
+ // git push -u origin main
+ --before prociding it will ask for permission,
+ and you have to type yes.
+ and code push to gihub repo will began
