@@ -140,6 +140,26 @@ Create a remote repository
  -> it will ask passphrase, just simply press enter
  -> again it will ask same passphrase,again simply press enter
  **Now if you want to see the .ssh file direcrtory**
- -> Go to the main file directory
+ -> Go to the main file directory,
+ // cd your directory path
+ where the .ssh file get created
  -> enter
- // 
+ // dir(windows)/ ls(Macos)
+ -> find the .ssh file is already exist and step-into the 
+ .ssh file directory,by using 
+ // cd .ssh
+ -> open the .ssh file directory
+ ->You will get the inside it and you have to open it by using
+ // cat id_rsa.pub
+-> and you will get your rsa key
+
+Now,
+1. Copy the entire ssh key.
+2. Go to your Github profile setting
+3.Go to SSH and GPG keys
+4.Press New-ssh-key
+5.Give a title to the new SSH key
+6.paste the SSH key into the key section
+7.Press "Add SSH key"
+8. Go back to the original project directory you were working in
+
