@@ -1,3 +1,5 @@
+***GIT***
+
 PART->1(setup git and  configure for creating global repos)
 
 check git version
@@ -94,3 +96,26 @@ and run
 
 
 
+***Github***
+this is the paltform where,
+1.one can create own repository to push code from local 
+machine to open source
+2.check other public repository for gaining knowledge
+3.check the languages used in any perticular project
+4. no. of contributors etc.
+
+If we want coopy any repository from github to local machine,
+we can use this command
+// git clone "http link of that repository"(No need to use "")
+or,
+manually download the ZIP file
+
+Create a remote repository
+1. Tap on the New button
+2.Give repository name
+3. Description(optional)
+4.choose the repository type(Public/Private)
+5.choose add Readme file(optional)
+6.choose license(Optional)
+7. Press "Create Repository"
+ 
