@@ -234,7 +234,8 @@ part 4:
 ->open it in VS code or in another IDE
 -> If you want to see all the commits and messages in one line, use
 // git log --pretty=oneline
-
+ '
+ (Creating new branch && Switchinfg between branches)->
 now if we want to work on that repo we have to create a branch using
 // git checkout -b (your desired branch name)
 or,
@@ -248,3 +249,7 @@ From now you are going to work in a new branch and all the new commits
 will go inside the new barnch
 we can see using
 // git log
+
+
+ If we want toggle between two or more branches
+ // git switch (branch name)
