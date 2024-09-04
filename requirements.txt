@@ -244,6 +244,7 @@ it will popup a message switched to a new branch
 If you want to know how many branches do you have, simply run->
 
 // git branch
+// git branch --all
 
 From now you are going to work in a new branch and all the new commits 
 will go inside the new barnch
@@ -253,3 +254,11 @@ we can see using
 
  If we want toggle between two or more branches
  // git switch (branch name)
+
+delete any branch
+
+// git branch -d (your desired branch name)
+
+push branch to github->
+ 
+ git push origin (your desired branch name)
