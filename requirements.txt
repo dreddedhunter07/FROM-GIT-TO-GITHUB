@@ -244,4 +244,7 @@ If you want to know how many branches do you have, simply run->
 
 // git branch
 
-From now you are going to work in a new branch
+From now you are going to work in a new branch and all the new commits 
+will go inside the new barnch
+we can see using
+// git log
