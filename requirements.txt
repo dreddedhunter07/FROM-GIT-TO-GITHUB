@@ -51,3 +51,8 @@ once this file going into a staging area ,then we can commit
 by using
 // git commit -m "logical message"
 ***
+
+
+part 3-(commit without add)
+***if we want to directly commit any changes without add it to the staging area
+// git commit -a -m "logical message" ***
