@@ -54,5 +54,16 @@ by using
 
 
 part 3-(commit without add)
-***if we want to directly commit any changes without add it to the staging area
-// git commit -a -m "logical message" ***
+***if we want to directly commit any changes without add it to the staging area->
+// git commit -a -m "logical message"  
+this is how we use "-a" for changing from working directory to commit in git.
+ ***
+ part 4-(diff command)
+ **this is the option to find the difference what you have worked and
+ what's already in the commit**
+
+ // git diff(if your file is in the working directory)
+ /// git diff --stagged (when your file is in the staging area)
+
+
+
