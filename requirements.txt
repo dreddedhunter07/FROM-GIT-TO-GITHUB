@@ -262,3 +262,10 @@ delete any branch
 push branch to github->
  
  git push origin (your desired branch name)
+
+
+ part 11:
+ (Merge main and another branches):
+ -> go to the main branch
+ type
+ // git merge (branch name)
