@@ -74,3 +74,16 @@ after this you can again commit using
 // git commit -m " logical message"
 
 
+in the creds.txt file i have wrote down my user credentials,
+and I don't want that to commit in my Github repository
+now I cacn do two this
+1. Manually delete it.
+But here is a problem if we run the command // git status
+there we can see that it is deleted from your working directory but not
+from the git stagibng area.
+
+2.We can use command 
+// git rm --cached creds.txt
+
+
+
