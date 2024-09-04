@@ -226,7 +226,7 @@ part 4:
    ->git push origin (your tag version name)
    Now it will be reflected to your github repo
 
-
+part 10:
    <Clone github repository>
 -> Open terminal
 -> Run the command
