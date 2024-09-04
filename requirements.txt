@@ -219,3 +219,9 @@ part 4:
 
    now if you want to see details about
    // git show (version you have given to the tag)
+
+   Still now, the tag is created inside the working repo, but
+   didn't get pushed to the github repo, so for that,
+   we have to write
+   ->git push origin (your tag version name)
+   
