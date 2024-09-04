@@ -86,5 +86,9 @@ from the git stagibng area.
 // git rm --cached creds.txt
 it will show that the file which you have enetered,is not getting added in git anymore
 and now you can delete it manually.
+and run the command 
+// git status
+and it will shows chages to be commited
+
 
 
