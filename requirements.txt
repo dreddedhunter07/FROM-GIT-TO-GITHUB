@@ -178,3 +178,12 @@ part 4:
  --before prociding it will ask for permission,
  and you have to type yes.
  and code push to gihub repo will began
+
+ part 6:
+ If we write more code/add any file to local repo we have to
+ commit it using 
+ // git commit -a -m "logical message"
+ Now, it get commit to the git, but don't get updated to
+ the github repo.
+ So, now we will do is->
+ 
