@@ -190,3 +190,7 @@ part 4:
  // git push origin main
 
  Now the updation will reflect in the github repo
+
+ part 7:
+ If we want see commits from the github repo, as well as
+ the individual version on or before that commit.
