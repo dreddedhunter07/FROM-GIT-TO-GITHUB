@@ -228,4 +228,9 @@ part 4:
 
 
    <Clone github repository>
-   
+-> Open terminal
+-> Run the command
+// git clone Http(-of that repo you want to clone)
+->open it in VS code or in another IDE
+-> If you want to see all the commits and messages in one line, use
+// git log --pretty=oneline
