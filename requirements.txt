@@ -200,3 +200,18 @@ part 4:
  and it will show fetch && push origin
  (By default the remote is set as origin we can set it with another name also.')
  
+
+ Part 9(Github Tags):
+ if we want to see any tags inside repo, we can use
+ // git tag(it will show all the tags, if you didn't created a tag
+ it will show nothing.)
+  So, at first create a tag:
+   There are two types of tagging,
+   -> Annotated 
+   -> Lightweight
+   if you want  the user get to know every single information
+   about the individual repo's tag, can run
+   // git tag -a v1.0/1.0 -m "logical message for release"
+   and your tagging will be done
+   if you again want to see the tag, just simply 
+   type// git tag
