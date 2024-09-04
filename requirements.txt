@@ -129,4 +129,10 @@ Create a remote repository
  // git branch -M main
 
 
- 
+ Now, we have a remote repository,we have to connect it to our
+ local repositorty:
+ for that:
+ we have to setup a SSH key, so that owner give the key once,
+ and it will auto detect the owner for every next commits
+ for this run:
+ // ssh-keygen -o
