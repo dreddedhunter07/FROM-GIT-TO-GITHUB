@@ -59,11 +59,18 @@ part 3-(commit without add)
 this is how we use "-a" for changing from working directory to commit in git.
  ***
  part 4-(diff command)
- **this is the option to find the difference what you have worked and
- what's already in the commit**
+ this is the option to find the difference what you have worked and
+ what's already in the commit
 
  // git diff(if your file is in the working directory)
  /// git diff --stagged (when your file is in the staging area)
 
+part 5(git removed file)->
+now I have created Readme.md and creds.txt, and i want to take both
+to the staging area at once
+// git add.(after this all files will be marked by A automatically)
+
+after this you can again commit using 
+// git commit -m " logical message"
 
 
