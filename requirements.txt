@@ -234,3 +234,8 @@ part 4:
 ->open it in VS code or in another IDE
 -> If you want to see all the commits and messages in one line, use
 // git log --pretty=oneline
+
+now if we want to work on that repo we have to create a branch using
+// git checkout -b (your desired branch name)
+or,
+git switch -b (your desired branch name)
