@@ -194,3 +194,9 @@ part 4:
  part 7:
  If we want see commits from the github repo, as well as
  the individual version on or before that commit.
+ part 8:
+ If we want  to see any repo's origin we can see by using
+ // git remote -v 
+ and it will show fetch && push origin
+ (By default the remote is set as origin we can set it with another name also.')
+ 
