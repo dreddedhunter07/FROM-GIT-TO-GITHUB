@@ -89,6 +89,8 @@ and now you can delete it manually.
 and run the command 
 // git status
 and it will shows chages to be commited
+and run
+//git commit -m "logical message"
 
 
 
