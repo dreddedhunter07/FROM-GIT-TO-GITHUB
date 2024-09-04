@@ -211,7 +211,11 @@ part 4:
    -> Lightweight
    if you want  the user get to know every single information
    about the individual repo's tag, can run
-   // git tag -a v1.0/1.0 -m "logical message for release"
-   and your tagging will be done
+   // git tag -a v1.0/1.0(your choice) -m "logical message for release"
+   and your tagging will be done.
+
    if you again want to see the tag, just simply 
-   type// git tag
+   type// git tag .
+
+   now if you want to see details about
+   // git show (version you have given to the tag)
