@@ -239,3 +239,9 @@ now if we want to work on that repo we have to create a branch using
 // git checkout -b (your desired branch name)
 or,
 git switch -b (your desired branch name)
+it will popup a message switched to a new branch
+If you want to know how many branches do you have, simply run->
+
+// git branch
+
+From now you are going to work in a new branch
