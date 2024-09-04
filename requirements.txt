@@ -118,4 +118,15 @@ Create a remote repository
 5.choose add Readme file(optional)
 6.choose license(Optional)
 7. Press "Create Repository"
+
+ create a new repository on the command line:
+ 1.run the first command to add readme file to the repository,
+ if not added previously.
+ 2.git init(if not use before)
+ 3.create branch as main, because by default it's initialized as
+ "Master"
+ for this run the command:
+ // git branch -M main
+
+
  
