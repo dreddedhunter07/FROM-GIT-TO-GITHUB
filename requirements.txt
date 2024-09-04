@@ -97,6 +97,7 @@ and run
 
 
 ***Github***
+Part 1:
 this is the paltform where,
 1.one can create own repository to push code from local 
 machine to open source
@@ -110,6 +111,7 @@ we can use this command
 or,
 manually download the ZIP file
 
+Part 2:
 Create a remote repository
 1. Tap on the New button
 2.Give repository name
@@ -128,7 +130,7 @@ Create a remote repository
  for this run the command:
  // git branch -M main
 
-
+part 3:
  Now, we have a remote repository,we have to connect it to our
  local repositorty:
  for that:
@@ -163,3 +165,8 @@ Now,
 7.Press "Add SSH key"
 8. Go back to the original project directory you were working in
 
+part 4:
+ now we will connect the remote repository to the origin 
+ for SSH
+ ->
+ Simply copy the command under "git branch -M main"
