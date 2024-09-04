@@ -136,3 +136,10 @@ Create a remote repository
  and it will auto detect the owner for every next commits
  for this run:
  // ssh-keygen -o
+ -> it will create private/public key rsa key pair.
+ -> it will ask passphrase, just simply press enter
+ -> again it will ask same passphrase,again simply press enter
+ **Now if you want to see the .ssh file direcrtory**
+ -> Go to the main file directory
+ -> enter
+ // 
